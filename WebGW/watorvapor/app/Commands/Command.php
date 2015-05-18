@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Wator\Commands;
 
 abstract class Command {
 
