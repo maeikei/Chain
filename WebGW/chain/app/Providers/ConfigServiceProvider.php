@@ -1,4 +1,4 @@
-<?php namespace Wator\Providers;
+<?php namespace Chain\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

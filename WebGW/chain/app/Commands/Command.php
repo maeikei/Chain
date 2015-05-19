@@ -1,4 +1,4 @@
-<?php namespace Wator\Commands;
+<?php namespace Chain\Commands;
 
 abstract class Command {
 

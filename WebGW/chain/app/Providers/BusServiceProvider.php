@@ -1,4 +1,4 @@
-<?php namespace Wator\Providers;
+<?php namespace Chain\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, 'Wator\Commands', 'Wator\Handlers\Commands'
+				$command, 'Chain\Commands', 'Chain\Handlers\Commands'
 			);
 		});
 	}

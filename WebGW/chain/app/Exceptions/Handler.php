@@ -1,4 +1,4 @@
-<?php namespace Wator\Exceptions;
+<?php namespace Chain\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

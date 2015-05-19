@@ -1,4 +1,4 @@
-<?php namespace Wator\Http\Controllers;
+<?php namespace Chain\Http\Controllers;
 
 class WelcomeController extends Controller {
 

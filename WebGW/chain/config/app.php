@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'Wator\Providers\AppServiceProvider',
-		'Wator\Providers\BusServiceProvider',
-		'Wator\Providers\ConfigServiceProvider',
-		'Wator\Providers\EventServiceProvider',
-		'Wator\Providers\RouteServiceProvider',
+		'Chain\Providers\AppServiceProvider',
+		'Chain\Providers\BusServiceProvider',
+		'Chain\Providers\ConfigServiceProvider',
+		'Chain\Providers\EventServiceProvider',
+		'Chain\Providers\RouteServiceProvider',
 
 	],
 

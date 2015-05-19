@@ -1,4 +1,4 @@
-<?php namespace Wator;
+<?php namespace Chain;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

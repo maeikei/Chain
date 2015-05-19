@@ -1,4 +1,4 @@
-<?php namespace Wator\Http\Middleware;
+<?php namespace Chain\Http\Middleware;
 
 use Closure;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;

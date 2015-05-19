@@ -1,4 +1,4 @@
-<?php namespace Wator\Http\Requests;
+<?php namespace Chain\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Wator
-        psr4_prefix: Wator
+        namespace: Chain
+        psr4_prefix: Chain
         src_path: app

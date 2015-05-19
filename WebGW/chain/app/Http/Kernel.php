@@ -1,4 +1,4 @@
-<?php namespace Wator\Http;
+<?php namespace Chain\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'Wator\Http\Middleware\VerifyCsrfToken',
+		'Chain\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => 'Wator\Http\Middleware\Authenticate',
+		'auth' => 'Chain\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => 'Wator\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'Chain\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

@@ -1,4 +1,4 @@
-<?php namespace Wator\Console\Commands;
+<?php namespace Chain\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
