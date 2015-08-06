@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: Chain
-        psr4_prefix: Chain
-        src_path: app
