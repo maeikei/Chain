@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'JST',
+    'timezone' => 'Asia/Tokyo',
 
     /*
     |--------------------------------------------------------------------------
@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        xuniverse\Providers\AppServiceProvider::class,
+        xuniverse\Providers\EventServiceProvider::class,
+        xuniverse\Providers\RouteServiceProvider::class,
 
     ],
 
