@@ -10,5 +10,4 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/about/{locale?}', 'AboutController@index');
 Route::get('/{locale?}', 'WelcomeController@index');
