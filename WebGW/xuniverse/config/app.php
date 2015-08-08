@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/xuniverse',
+    'url' => 'http://www.watorvapor.com/xuniverse',
 
     /*
     |--------------------------------------------------------------------------
