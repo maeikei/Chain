@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	padding-top: 70px;
+	width: 100%;
+	display: table;
+/*
+	font-weight: 100;
+	font-family: 'Lato';
+*/
+}
+
+.container-content {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+/*
+.content {
+	text-align: center;
+	display: inline-block;
+}
+
+.title {
+	font-size: 96px;
+}
+
+
+*/
+.col-text {
+    font-size:xx-large;
+    font-weight:bold;
+    color:#00005f;
+}
+.language_button {
+	width:100%;
+	margin-top:2px;
+}
+.language_button  img{
+	width:16px;
+	height:12px;
+	margin-left:2px;
+}
