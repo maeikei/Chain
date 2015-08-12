@@ -34,7 +34,7 @@
 			    <img src="{{ asset('/flags/ru.svg') }}" alt="button" />
 			  </button>
 			</li>
-			<li class="active"><a href="/xuniverse">Fixed top <span class="sr-only">(current)</span></a></li>
+			<li class="active navbar-go-top"><a href="/xuniverse">Fixed top <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
