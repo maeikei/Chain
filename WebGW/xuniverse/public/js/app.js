@@ -1,5 +1,5 @@
 var SUPPORT_LANG = [
-	'en','cn','ja'
+	'en','zh','ja','ru'
 ]
 
 $(function () {
